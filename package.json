@@ -1,0 +1,63 @@
+{
+  "name": "angular12-highcharts9",
+  "version": "1.0.0",
+  "description": "Highcharts9 for your Angular12 project based on the original gevgeny angular2-highcharts project",
+  "scripts": {
+    "watch": "ntsc -w",
+    "build": "rm -rf dist && ngc",
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gevgeny/angular2-highcharts"
+  },
+  "keywords": [
+    "angular",
+    "charts",
+    "highcharts",
+    "highstock",
+    "highmaps"
+  ],
+  "author": "Eugene Gluhotorenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gevgeny/angular2-highcharts/issues"
+  },
+  "homepage": "https://github.com/gevgeny/angular2-highcharts#readme",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~12.2.0",
+    "@angular/animations": "~12.2.0",
+    "@angular/cdk": "~12.2.0",
+    "@angular/cli": "~12.2.0",
+    "@angular/common": "~12.2.0",
+    "@angular/compiler": "~12.2.0",
+    "@angular/compiler-cli": "~12.2.0",
+    "@angular/core": "~12.2.0",
+    "@angular/forms": "~12.2.0",
+    "@angular/material": "~12.2.0",
+    "@angular/platform-browser": "~12.2.0",
+    "@angular/platform-browser-dynamic": "~12.2.0",
+    "@angular/router": "~12.2.0",
+    "@angular/platform-server": "~12.2.0",
+    "@types/jasmine": "^3.8.0",
+    "@types/jasminewd2": "^2.0.10",
+    "core-js": "^3.16.1",
+    "http-server": "^13.0.0",
+    "jasmine-core": "^3.8.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "karma": "~6.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-jasmine": "~4.0.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "~6.6.0",
+    "systemjs": "^6.10.2",
+    "typescript": ">=4.2.3 and <4.4.0",
+    "zone.js": "~0.11.4"
+  },
+  "dependencies": {
+    "highcharts": "^9.1.2"
+  },
+  "bundledDependencies": [
+    "highcharts"
+  ]
+}
